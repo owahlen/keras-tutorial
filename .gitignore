@@ -1,0 +1,29 @@
+# model data
+model/*
+!model/.gitkeep
+
+# log data
+logs/*
+!logs/.gitkeep
+
+# jupyter notebook
+.ipynb_checkpoints/
+
+# IDE or editors
+.idea/
+*.iml
+*.iws
+*~
+
+# Mac
+*.DS_Store
+
+# test-related
+.coverage
+.cache
+.pytest_cache
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
